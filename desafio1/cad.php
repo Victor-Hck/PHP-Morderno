@@ -19,7 +19,7 @@
             $sucessor = $valorInteiro + 1;
             echo "O número escolhido foi <strong>$valorInteiro</strong><br>O seu antecessor é $antecessor<br>O seu sucessor é $sucessor<br>";
         ?>
-        <butoon><a href="javascript:history.go(-1)">Voltar</a></butoon>
+        <button><a href="javascript:history.go(-1)">Voltar</a></button>
     </main>
 </body>
 </html>
