@@ -10,7 +10,7 @@
     <main>
         <h1>Conversor de Moedas v1.0</h1>
         <?php
-            const dolar = 5.22;
+            const DOLAR = 5.22;
             $valorpegar = sprintf("%.2f", $_GET["number"]);
             $valorconverter = floatval($valorpegar);
             $valorconvertido = sprintf("%.2f", $valorconverter / dolar);
